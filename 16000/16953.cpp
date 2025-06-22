@@ -29,5 +29,9 @@ int main(){
             B /= 10;
             result += 1;
         }
+        else{
+            cout << -1;
+            break;
+        }
     }
 }
